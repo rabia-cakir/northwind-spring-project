@@ -44,9 +44,6 @@ public class Product {
 	@JoinColumn(name = "supplier_id")
 	private Supplier supplier;
 
-	/*
-	@OneToMany(mappedBy = "product")
-	private List<OrderDetail> orderDetails;
-	*/
+
 
 }
